@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MonResto</string>
+
+    <string name="burger">Burger</string>
+    <string name="charcuterie">Charcuterie</string>
+    <string name="cheescake">Cheescake citron Litchee</string>
+    <string name="churros">Churros framboise</string>
+    <string name="crevette">Crevettes aigre doux</string>
+    <string name="fajitas">Fajitas</string>
+    <string name="fondue">Fondue</string>
+    <string name="gazpacho">Gazpacho</string>
+    <string name="g_chocolat">Gâteau au chocolat Suisse</string>
+    <string name="the">Glace thé vert</string>
+    <string name="mozza">Mozza</string>
+    <string name="nachos">Nachos</string>
+    <string name="nem">Nem</string>
+    <string name="nuggets">Nuggets</string>
+    <string name="pizza">Pizza</string>
+    <string name="paella">Paella</string>
+    <string name="sopapilla">Sopapilla</string>
+    <string name="sundea">Sundea</string>
+    <string name="teriyaki">Teriyaki</string>
+    <string name="sushis">Sushis</string>
+    <string name="tiramisu">Tiramisu</string>
+
+
+    <string name="americain">Americain</string>
+    <string name="chinois">Chinois</string>
+    <string name="espagnol">Espagnol</string>
+    <string name="italien">Italien</string>
+    <string name="japonais">Japonais</string>
+    <string name="mexicain">Mexicain</string>
+    <string name="suisse">Suisse</string>
+</resources>
