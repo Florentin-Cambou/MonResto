@@ -21,9 +21,9 @@ fun Home(){
     val backStackEntry by navController.currentBackStackEntryAsState()
     //Voir la screen actuelle
     val currentScreen = Screens.valueOf(backStackEntry?.destination?.route?: Screens.Home.title)
-    //Avoir un backstackEntry
+
     Scaffold(
-        topBar = { TopAppBarComposable(canGoBack = true, screens = navController.backQueue /*à completer*/) },
+        topBar = { TopAppBarComposable(canGoBack = currentScreen != Screens.Home, screens = currentScreen, up = {navController.navigateUp()} ) },
         content = { paddingValues ->
             NavHost(
                 navController = navController,
